@@ -24,7 +24,6 @@ const programs = [
 ];
 
 // Declare the action
-
 import type { RequestHandler } from "express";
 
 const browse: RequestHandler = (req, res) => {
@@ -32,5 +31,4 @@ const browse: RequestHandler = (req, res) => {
 };
 
 // Export it to import it somewhere else
-
 export default { browse };
